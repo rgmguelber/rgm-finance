@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.44.0",
@@ -30,6 +32,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.19",
+    "jest": "^30.4.2",
     "prettier": "^3.8.4",
     "tailwindcss": "^4",
     "typescript": "^5"
