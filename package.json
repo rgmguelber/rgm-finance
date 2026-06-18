@@ -10,7 +10,8 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll",
+    "docker-up": "docker compose -f infra/compose.yaml up -d"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.44.0",
