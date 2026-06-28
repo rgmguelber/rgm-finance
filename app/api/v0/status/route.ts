@@ -6,4 +6,4 @@ export async function GET(request: Request, response: Response) {
   return Response.json({ mensagem: "Sucesso" });
 }
 
-// TODO: Aula Dia 16 - Versionamento de API e Endpoint "/status"
+// TODO: Aula Dia 19 - Foi certo fazer o commit do .env?
