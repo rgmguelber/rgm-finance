@@ -33,4 +33,4 @@ export async function GET(request: Request, response: Response) {
   });
 }
 
-// TODO: Aula Dia 20 - Endpoint "/status": ISO 8601 + Fuso
+// TODO: Aula Dia 21 - Investigando logs da Vercel em Produção
