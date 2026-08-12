@@ -1,6 +1,6 @@
 import database from "@/infra/database";
 
-export async function GET(request: Request, response: Response) {
+export async function GET() {
   // Data da atualização
   const updateAt = new Date().toISOString();
 
